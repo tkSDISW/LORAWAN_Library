@@ -17,9 +17,13 @@
     xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/5.0.0"
     xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/5.0.0"
     xmlns:org.polarsys.capella.core.data.pa.deployment="http://www.polarsys.org/capella/core/pa/deployment/5.0.0"
-    xmlns:re="http://www.polarsys.org/capella/common/re/5.0.0" id="edf9b4ac-c8aa-48fb-aef2-2465dfe37b3d"
+    xmlns:re="http://www.polarsys.org/capella/common/re/5.0.0" xmlns:smw="http://www.obeo.fr/capella/smw"
+    id="edf9b4ac-c8aa-48fb-aef2-2465dfe37b3d"
     name="LORAWAN_Library">
   <ownedExtensions xsi:type="libraries:ModelInformation" id="b6c085f3-7aef-42ea-a124-b836cdff3154"/>
+  <ownedExtensions xsi:type="smw:TcRflpGraph" id="e14a1a95-2f04-4578-bf72-724799bd53c2"
+      tcuid="CSiJr4pi4nxmPD" stableTcId="COsJr4pi4nxmPD" itemId="064194" revisionId="A"
+      ancestor="{&#xA;  &quot;nodes&quot;: [&#xA;    {&#xA;      &quot;projectID&quot;: &quot;edf9b4ac-c8aa-48fb-aef2-2465dfe37b3d&quot;,&#xA;      &quot;properties&quot;: {&#xA;        &quot;type&quot;: &quot;Project&quot;,&#xA;        &quot;userSpecificInput:isTopContainer&quot;: &quot;true&quot;,&#xA;        &quot;userSpecificInput:CHECKOUT&quot;: &quot;true&quot;,&#xA;        &quot;ItemRevId&quot;: &quot;A&quot;,&#xA;        &quot;ItemID&quot;: &quot;064194&quot;&#xA;      },&#xA;      &quot;umlID&quot;: &quot;edf9b4ac-c8aa-48fb-aef2-2465dfe37b3d&quot;,&#xA;      &quot;plmPk&quot;: {&#xA;        &quot;tcuid&quot;: &quot;CSiJr4pi4nxmPD&quot;,&#xA;        &quot;stableTcId&quot;: &quot;COsJr4pi4nxmPD&quot;&#xA;      }&#xA;    }&#xA;  ],&#xA;  &quot;edges&quot;: []&#xA;}"/>
   <ownedEnumerationPropertyTypes xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyType"
       id="c54d49a9-fd67-4907-a539-ea1e949df380" name="ProgressStatus">
     <ownedLiterals xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyLiteral"

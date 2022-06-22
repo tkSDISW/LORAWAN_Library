@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<plmpivot:PlmProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:plmpivot="http://www.example.org/Plmpivot" semanticIdentifier="LORAWAN_Library" plmIdentifier="CSiJr4pi4nxmPD" revision="A" name="LORAWAN_Library" reservationStatus="UNLOCKED" label="064194/A">
+  <options key="uml0Type" value="Capella Library"/>
+  <options key="tcitemId" value="064194"/>
+  <options key="staging.area.path" value="C:\bhm\staging\LORAWAN_Library_064194_A\.smw"/>
+  <options key="timestamp" value="CXqJr4pi4nxmPD"/>
+  <model name="platform:/resource/LORAWAN_Library/LORAWAN_Library.aird">
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_s2xSQIQwEeyGXp5AE6XhWA" plmIdentifier="CSuJr4pi4nxmPD" name="[SAB] Structure" hash="813e6e548743a4cea805daf8b0aaf0f03a30bf2b" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw" imageFormat="JPG" type="System Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_1QOV4IRDEeyGXp5AE6XhWA" plmIdentifier="CWiJr4pi4nxmPD" name="[PAB] Temp and GPS Monitoring with Functions" hash="8b113244b5b56eb0e0ffdebe6932b201e77e6d53" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw" imageFormat="JPG" type="Physical Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_AoWkwISREeyGXp5AE6XhWA" plmIdentifier="CWmJr4pi4nxmPD" name="[PDFB] Deliver Lora Message to Integration" hash="be881b95d2b0dd3087c0cd471e02fb309a8a245a" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw" imageFormat="JPG" type="Physical Data Flow Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_CNFLoYT5EeyGXp5AE6XhWA" plmIdentifier="CWqJr4pi4nxmPD" name="[PAB] Temp and GPS Monitoring just Nodes" hash="134e09727a157c7b6943fb40b45657004528e2c0" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw" imageFormat="JPG" type="Physical Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_uLawIJsdEeykX7adsSEffQ" plmIdentifier="CWuJr4pi4nxmPD" name="[PAB] GPS Monitoring just Nodes" hash="01b31d5bddf409afdb38bdbf5eeda41d1c0cb034" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw" imageFormat="JPG" type="Physical Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_xW4CsJshEeykX7adsSEffQ" plmIdentifier="CaiJr4pi4nxmPD" name="[PAB] GPS Monitoring with Functions" hash="a74320882a7ffed44348f90bea274bc8d50a52c4" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw" imageFormat="JPG" type="Physical Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_x5DWcefzEeyAEY2eRwkWcA" plmIdentifier="CamJr4pi4nxmPD" name="REC [PAB] LORAWAN Gateway" hash="0a4c79730b797c0ddfad63ea2cbf62064c586642" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw" imageFormat="JPG" type="Physical Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_S9GUQef2EeyAEY2eRwkWcA" plmIdentifier="CaqJr4pi4nxmPD" name="REC [PAB] Network Components" hash="99d3917469a07951d86777faa7a356f06ade1be8" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw" imageFormat="JPG" type="Physical Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_k40HwIQxEeyGXp5AE6XhWA" plmIdentifier="CauJr4pi4nxmPD" name="[LAB] Structure" hash="0d9ffa7f3535f0382380b94e0fe12d6c7a8a9bf0" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw" imageFormat="JPG" type="Logical Architecture Blank"/>
+    <images xsi:type="plmpivot:RepresentationImage" semanticIdentifier="_3dB2kIRBEeyGXp5AE6XhWA" plmIdentifier="CeiJr4pi4nxmPD" name="[LDFB] Detect Temperature Anomolies" hash="012828a7393ac8b603a35d38171d2bf759d946c3" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw" imageFormat="JPG" type="Logical Data Flow Blank"/>
+  </model>
+  <archive semanticIdentifier="LORAWAN_Library.zip" plmIdentifier="CSqJr4pi4nxmPD" name="LORAWAN_Library.zip" hash="46cd37e48a9d583316ee5ae9d869b642e7fa1253" path="C:\bhm\staging\LORAWAN_Library_064194_A\.smw">
+    <options key="fileIdentifier" value="CSqJr4pi4nxmPD"/>
+    <files hash="44101110ffe45665023d189eccaa5f2332eb1ce1" path="LORAWAN_Library/.project"/>
+    <files hash="d0491476b25e673b90dbd338306661fdc0b2fd5a" path="LORAWAN_Library/Images/Cayenne.png"/>
+    <files hash="3b4365e2662755c45899bb4bfaa4b4358fb7a5ff" path="LORAWAN_Library/Images/Excel.png"/>
+    <files hash="518df0189466559b4efeb5b6ec752fd7f4b74d14" path="LORAWAN_Library/Images/HTCC-AB02S.png"/>
+    <files hash="5677f0fd56a3a7e4c214ee6e6e5ffd9a776383b4" path="LORAWAN_Library/Images/Helium Console.png"/>
+    <files hash="df7d4bc5a3dd85107abbe9efb2821c1054dae088" path="LORAWAN_Library/Images/Helium.png"/>
+    <files hash="11f9aa829ab7ebdbf30df6e3b99610958b57a178" path="LORAWAN_Library/Images/LHT65.png"/>
+    <files hash="1ccad32030622d4a5616c460a791772de4e9ab07" path="LORAWAN_Library/Images/LPS8.png"/>
+    <files hash="07acb743dcffe4444cf5d4da6d03ee1310194ce1" path="LORAWAN_Library/LORAWAN_Library.afm"/>
+    <files hash="28cbb0888794b552a9227bcd2f853a2e63b23e14" path="LORAWAN_Library/LORAWAN_Library.aird"/>
+    <files hash="511f22589496eee9e89e1884f87bc3b42cd61445" path="LORAWAN_Library/LORAWAN_Library.capella"/>
+  </archive>
+</plmpivot:PlmProject>
