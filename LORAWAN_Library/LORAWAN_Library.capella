@@ -1006,7 +1006,7 @@
           </ownedSpecification>
         </ownedConstraints>
         <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
-            id="eab9ed9f-cd9e-49a9-bea5-f1423f44e284" name="" constrainedElements="#36a219b5-ae85-41c2-8064-946bc8442df3 #1c93882c-ca71-415d-8825-912707232ec4">
+            id="eab9ed9f-cd9e-49a9-bea5-f1423f44e284" name="" constrainedElements="#36a219b5-ae85-41c2-8064-946bc8442df3 #1c93882c-ca71-415d-8825-912707232ec4 #d8712c26-7c03-48be-b40a-4836e79e7476">
           <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
               id="a3ed19e7-ee34-4aec-9e7c-6103d8270231">
             <bodies></bodies>
@@ -1014,7 +1014,7 @@
           </ownedSpecification>
         </ownedConstraints>
         <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
-            id="88f92b41-b622-4485-a126-ed24abd9b957" name="" constrainedElements="#5993b206-7ab1-4528-acf5-41e00bbab73b">
+            id="88f92b41-b622-4485-a126-ed24abd9b957" name="" constrainedElements="#5993b206-7ab1-4528-acf5-41e00bbab73b #d8712c26-7c03-48be-b40a-4836e79e7476">
           <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
               id="c3426afc-91d4-43e5-88e3-322a9575bc5b">
             <bodies></bodies>
@@ -1046,7 +1046,7 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d14d8ed0-46f6-481f-9451-eefb4631e76b"
             name="Physical System" abstractType="#a144db07-6a8c-40ba-86e6-321f8640a0e3"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e152b6d9-e560-49b7-8085-7dba3a926c7b"
-            name="Business" abstractType="#2abfdcda-d8a6-4e14-a340-c5a8c2f1e3be"/>
+            name="Operator" abstractType="#2abfdcda-d8a6-4e14-a340-c5a8c2f1e3be"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="2aa90461-63bc-4011-82ee-7a4959290639"
             name="Environment" abstractType="#95201f45-2c1d-4bc4-9af4-cdc12e17be10"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="3b0da3d6-64aa-476b-9676-b714d3c52b53"
@@ -1763,8 +1763,16 @@
           </ownedPhysicalComponents>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-            id="2abfdcda-d8a6-4e14-a340-c5a8c2f1e3be" name="Business" actor="true"
-            nature="NODE">
+            id="2abfdcda-d8a6-4e14-a340-c5a8c2f1e3be" name="Operator" actor="true"
+            kind="FACILITIES" nature="NODE">
+          <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+              id="f63eb821-3b95-4d30-b879-2da0b67dc902" name="" constrainedElements="#2abfdcda-d8a6-4e14-a340-c5a8c2f1e3be">
+            <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+                id="101720b7-afe5-4fc5-98bc-3a2421397168">
+              <bodies></bodies>
+              <languages>capella:linkedText</languages>
+            </ownedSpecification>
+          </ownedConstraints>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="a5d95ec8-efdc-41ce-8d9c-c976aaf218e8" targetElement="#9ed8d284-901f-4c77-af7e-7c46abb26a0f"
               sourceElement="#7daaed28-3667-47fa-8307-3a9af4bdb6b1"/>
