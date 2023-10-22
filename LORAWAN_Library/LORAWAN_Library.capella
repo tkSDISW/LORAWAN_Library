@@ -1046,7 +1046,7 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d14d8ed0-46f6-481f-9451-eefb4631e76b"
             name="Physical System" abstractType="#a144db07-6a8c-40ba-86e6-321f8640a0e3"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e152b6d9-e560-49b7-8085-7dba3a926c7b"
-            name="Family" abstractType="#2abfdcda-d8a6-4e14-a340-c5a8c2f1e3be"/>
+            name="Business" abstractType="#2abfdcda-d8a6-4e14-a340-c5a8c2f1e3be"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="2aa90461-63bc-4011-82ee-7a4959290639"
             name="Environment" abstractType="#95201f45-2c1d-4bc4-9af4-cdc12e17be10"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="3b0da3d6-64aa-476b-9676-b714d3c52b53"
@@ -1097,7 +1097,7 @@
         <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
             id="bb56f90f-58e7-477b-a01c-9fcffcb49835" name="GPS Signal" linkEnds="#e286c54d-ce5a-4a98-a056-0fa322e9302a #d1d92257-7a0b-4191-858e-8fcc533e473b"/>
         <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-            id="f891d023-ae68-41a6-8941-508513b10811" name="Visual" linkEnds="#f1463d59-4e61-4d2b-a31b-710cd2f75091 #5fb5b7d3-5f23-4dbf-8bec-c8aaf4b26336"/>
+            id="f891d023-ae68-41a6-8941-508513b10811" name="Position" linkEnds="#f1463d59-4e61-4d2b-a31b-710cd2f75091 #5fb5b7d3-5f23-4dbf-8bec-c8aaf4b26336"/>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="a144db07-6a8c-40ba-86e6-321f8640a0e3" name="Physical System">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
@@ -1320,6 +1320,10 @@
               id="bdaf8198-1ab6-461a-ae05-3cebf2ae2c0d" name="WIFI" linkEnds="#79500aa7-83da-4af5-ad30-87c593822d4a #ea680295-c26e-40ba-9830-7db5a0e8300e"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="93b00a30-855e-46cc-9a7d-b0223b0706b0" name="LORWAN" linkEnds="#144bf156-af65-4cc0-a7bf-33cd1d1f8b98 #3abd7d02-9646-47a4-a529-073ff50d3da9"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="393fbea6-0a33-4dff-a299-5679b9846f60" name="R-G" linkEnds="#cebd117d-20a1-42ef-9cd1-8eef0c39ddc3 #59891c46-691b-4107-bd57-b587fa9ef579"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="7825ab19-1f20-47c8-8937-8ae378e1c221" name="R-G" linkEnds="#094fa1a0-518c-4880-ad97-853ef7eaa7e2 #ffbcef51-964b-41b5-a458-86c13ed5e723"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="55c41ae6-4179-4508-98b2-75d0b3c9070a" name="PC" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
@@ -1759,7 +1763,8 @@
           </ownedPhysicalComponents>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-            id="2abfdcda-d8a6-4e14-a340-c5a8c2f1e3be" name="Family" actor="true" nature="NODE">
+            id="2abfdcda-d8a6-4e14-a340-c5a8c2f1e3be" name="Business" actor="true"
+            nature="NODE">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="a5d95ec8-efdc-41ce-8d9c-c976aaf218e8" targetElement="#9ed8d284-901f-4c77-af7e-7c46abb26a0f"
               sourceElement="#7daaed28-3667-47fa-8307-3a9af4bdb6b1"/>
