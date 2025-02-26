@@ -654,20 +654,19 @@
                       id="710be992-8628-4656-b8ad-5849c6205909" targetElement="#cb062b02-0d66-48bd-8e83-9aadca6d6fb0"
                       sourceElement="#5e3a63b6-a102-429a-8091-479eaf2875e8"/>
                 </inputs>
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="caa25c0b-cf7f-463d-884c-409dc4c49106" name="FIP 1"/>
                 <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                     id="d0a417d8-85bc-4171-b169-94bbd90b45bc" name="FOP 1">
                   <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
                       id="652b6393-ce33-4ef2-ac36-af6a5cf66705" targetElement="#1bfe3213-c3e6-47ee-91c2-54ff43829cd1"
                       sourceElement="#d0a417d8-85bc-4171-b169-94bbd90b45bc"/>
                 </outputs>
-              </ownedFunctions>
-              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
-                  id="11871d7e-cefa-4b7b-8a51-bb6c3a5322ef" name="Display Data">
-                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                    id="caa25c0b-cf7f-463d-884c-409dc4c49106" name="FIP 1"/>
                 <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                     id="3fc38337-fc85-4a3a-a8d4-c0f85dee812d" name="FOP 1"/>
               </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="11871d7e-cefa-4b7b-8a51-bb6c3a5322ef" name="Display Data"/>
               <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                   id="cfefa498-4001-486a-9c25-79100b461815" targetElement="#707a8b26-d9d8-4eff-86d3-919d551d6ec5"
                   sourceElement="#3e77ecdd-7b25-47b4-beb7-bc53cbb998db"/>
@@ -1367,12 +1366,6 @@
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="b6ad0875-ed4d-4370-adb5-f17b9336ae21" name="Lora Devices" nature="BEHAVIOR">
-            <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-                id="984b2cff-bb39-45ff-af90-ff7fd0a76c6f" targetElement="#7b1b7569-2041-4644-96ce-fa6482d77d6c"
-                sourceElement="#67716743-b26b-4cfb-b2d0-eef54bcfa2db"/>
-            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                id="67716743-b26b-4cfb-b2d0-eef54bcfa2db" targetElement="#011cf0ca-0348-4110-846d-d309b7bbeffa"
-                sourceElement="#b6ad0875-ed4d-4370-adb5-f17b9336ae21"/>
             <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
                 id="0e3fc3e5-feae-4a3c-8ca5-0abb48509124" targetElement="#d44211c3-dfda-47c6-bcb1-0beaccd51a04"
                 sourceElement="#b6ad0875-ed4d-4370-adb5-f17b9336ae21"/>
@@ -1515,11 +1508,7 @@
                 kind="FLOW"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="3637b844-0659-4b4f-b93c-1a2160a4c7da" name="CP 2" orientation="INOUT"
-                kind="FLOW">
-              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
-                  id="1fb6ebf0-e924-4361-bc2b-73929792adad" targetElement="#caa25c0b-cf7f-463d-884c-409dc4c49106"
-                  sourceElement="#3637b844-0659-4b4f-b93c-1a2160a4c7da"/>
-            </ownedFeatures>
+                kind="FLOW"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="6977d7b0-0961-417e-867f-3b934334cfb8" name="CP 3" orientation="OUT"
                 kind="FLOW"/>
